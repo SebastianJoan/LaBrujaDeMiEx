@@ -2,4 +2,24 @@
 @plugin 'tailwindcss-animate'; 
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
- 
+
+
+@font-face {
+    font-family: Neulis-Black;
+    src: url('/fonts/Neulis-Black.otf');
+}
+
+@font-face {
+    font-family: Neulis-Bold;
+    src: url('/fonts/Neulis-BlackItalic.otf');
+}
+
+@font-face {
+    font-family: Neulis-Bold;
+    src: url('/fonts/Neulis-Bold.otf');
+}
+
+@font-face {
+    font-family: Neulis-BoldItalic;
+    src: url('/fonts/Neulis-BoldItalic.tff');
+}
